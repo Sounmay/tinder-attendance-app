@@ -24,6 +24,7 @@ dependencies:
   flutter_tindercard: ^0.2.0
   font_awesome_flutter: ^8.10.1
   curved_navigation_bar: ^0.3.4 #latest version
+  flutter_downloader: ^1.5.2
   flutter:
     sdk: flutter
 
