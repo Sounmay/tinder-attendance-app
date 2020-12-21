@@ -15,14 +15,14 @@ class _welcomeState extends State<welcome> {
 
   @override
   Widget build(BuildContext context) {
-    Future.delayed(Duration(seconds: 1), () {
+    Future.delayed(Duration(seconds: 40), () {
       Navigator.popAndPushNamed(context, '/cards');
     });
     return Scaffold(
       backgroundColor: Colors.blueAccent,
       body: new ListView(
         children: [
-          Image(image: AssetImage('D:/AndSt Projects/tinder_att_app/images/attapplogo.png')),
+          Image(image: AssetImage('images/attapplogo.png')),
           Center(
             child: Text(
               'ATTENDANCE',
